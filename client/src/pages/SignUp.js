@@ -48,6 +48,8 @@ const SignUp = () => {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              placeholder="name"
+              required
             />
             <input
               className="w-[35%] px-6 py-2 bg-gray-700 rounded-md border-none outline-none cursor-pointer"
@@ -55,6 +57,8 @@ const SignUp = () => {
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              placeholder="email"
+              required
             />
             <input
               className="w-[35%] px-6 py-2 bg-gray-700 rounded-md border-none outline-none cursor-pointer"
@@ -62,6 +66,8 @@ const SignUp = () => {
               name="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              placeholder="password"
+              required
             />
             <input
               className="w-[35%] px-6 py-2 bg-gray-700 rounded-md border-none outline-none cursor-pointer"
@@ -69,6 +75,8 @@ const SignUp = () => {
               name="phone"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
+              placeholder="phone"
+              required
             />
             <input
               className="w-[35%] px-6 py-2 bg-gray-700 rounded-md border-none outline-none cursor-pointer"
@@ -76,6 +84,8 @@ const SignUp = () => {
               name="address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
+              placeholder="address"
+              required
             />
             <button
               type="submit"
