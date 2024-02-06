@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 
 // es module fix
 const __fileName = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(__fileName);
 
 // rest object
 const app = express();
